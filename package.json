@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/jest shouldError.test.ts"
+  },
   "jest": {
     "transform": {
       "^.+\\.(ts|d\\.ts)?$": "ts-jest"
