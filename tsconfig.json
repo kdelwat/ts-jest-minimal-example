@@ -1,9 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES5",
-    "lib": ["esnext", "esnext.asynciterable", "dom", "es2015.core"],
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true
+    "lib": ["esnext"],
+    "strict": true
   }
 }
